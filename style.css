@@ -1,0 +1,363 @@
+*{
+	box-sizing:border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	scroll-behavior: smooth;
+}
+.navbar{
+	color: white;
+	background: black;
+	display: flex;
+	height: 12vh;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar img{
+	height: 7vh;
+	margin-left: 15vh;
+}
+.navbar ul{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin-right: 15vh;
+}
+.navbar ul a{
+	color: white;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	text-decoration: none;
+}
+.navbar a:hover{
+	color: #1DB954;
+}
+.poster{
+	height: 100vh;
+	background: rgb(41, 65, 171) url(./images/body-background.svg);
+    background-size: 90%;
+    background-position: right 40% center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.poster h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16vh;
+	font-weight: bolder;
+	color: #1DB954;
+	text-shadow: 0px 1px, 1px 0px, 1px 0px;
+}
+.poster .first{
+	padding-top:  20vh;
+	text-align: center;
+	padding-right: 40vh;
+}
+.poster .second{
+	text-align: center;
+	padding-left: 10vh;
+}
+.poster .txt{
+	text-align: center;
+	color: #1DB954;
+	font-weight: bolder;
+}
+.poster .btn{
+	margin-left: 45%;
+	margin-top: 5vh;
+	background: #1DB954;
+	text-align: center;
+	padding-top: 5px;
+	width: 26vh;
+	height: 5vh;
+	border-radius: 24px;
+	font-family: "Open Sans";
+	color: rgb(41, 65, 171);
+}
+.poster .btn:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.footer{
+	padding-top: 10vh;
+	color: white;
+	background: black;
+	display: flex;
+}
+.footer img{
+	height: 7vh;
+	margin-left: 15vh;
+}
+.footer ul{
+	list-style: none;
+	margin-left: 20vh;
+}
+.footer ul a{
+	text-decoration: none;
+	color: white;
+}
+.footer ul li{
+	margin-top: 2vh;
+}
+.footer .head{
+	color: grey;
+}
+.footer a:hover{
+	color: #1DB954;
+}
+.footer .social-sites img{
+	background: grey;
+	border-radius: 25px;
+	marigin: 0px;
+}
+.footer .social-sites{
+	display: flex;
+	margin:  0px;
+}
+.footer .social-sites ul li{
+	margin:  0px;
+}
+.footer .social-sites img:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+	background: #1DB954;
+}
+.copyright {
+	padding-top: 10vh;
+	color: white;
+	background: black;
+	display: flex;
+	align-items: center;
+	padding-bottom: 25px;
+	justify-content: space-between;
+}
+.copyright .cp {
+	padding-left: 15vh;
+	display: flex;
+	list-style: none;
+}
+.copyright .cp li {
+	padding-left: 2vh;
+}
+.copyright a{
+	text-decoration: none;
+	color: white;
+}
+.copyright .lang{
+	list-style: none;
+	padding-right: 15vh;
+}
+.copyright a:hover{
+	color: #1DB954;
+}
+.premiumposter {
+	background-image: url(./images/premiumposter.jpeg);
+	background-size: 70%;
+    background-position: right 40% center;
+    -webkit-box-pack: center;
+    justify-content: center;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding-bottom: 14vh;
+}
+.premiumposter img{
+	width: 60vh;
+	height: auto;
+	margin-right: 15vh;
+	margin-top: 10vh;
+}
+.premium-cover-text{
+	font-size: 6vh;
+	font-family: 'Poppins', sans-serif;
+}
+.premium-text{
+	margin-left: 15vh;
+	margin-top: 15vh;
+	margin-right: 10vh;
+}
+.premium-cover-text-1{
+	margin-top: 5vh;
+	font-size: 3.5vh;
+	font-weight: 900;
+}
+.premium-cover-btn{
+	display: flex;
+	margin-top: 5vh;
+}
+.premium-cover-btn .btn-1{
+	background: rgb(21, 230, 140);
+	text-align: center;
+	padding-top: 5px;
+	width: 20vh;
+	height: 8vh;
+	padding-top: 2vh;
+	border-radius: 24px;
+	font-family: "Open Sans";
+	color: black;
+}
+.premium-cover-btn .btn-2{
+	background: rgb(81, 155, 245);
+	text-align: center;
+	padding-top: 5px;
+	width: 26vh;
+	padding-top: 2vh;
+	height: 8vh;
+	border-radius: 24px;
+	font-family: "Open Sans";
+	color: black;
+	margin-left: 2vh;
+}
+.premium-cover-cp-text{
+	font-size: 1.85vh;
+	margin-top: 5vh;
+}
+.price-info{
+	background-color: black;
+	color: white;	
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom: 3vh;
+}
+.price-info h1{
+	font-family: "Poppins";
+}
+.price-info .price-1{
+	padding-top: 6vh;
+	font-size: 3vh;
+}
+.price-info .price-2{
+	font-size: 3vh;
+}
+.price-info .btn{
+	background: white;
+	text-align: center;
+	padding-top: 5px;
+	width: 20vh;
+	padding-top: 2vh;
+	height: 8vh;
+	border-radius: 24px;
+	font-family: "Open Sans";
+	color: black;
+	margin-left: 94vh;
+	margin-top: 6vh;
+	font-weight: 900;
+}
+.btn:hover{
+	transform: scale(1.05);
+}
+.price-info .price-info-tandc{
+	font-size: 1.85vh;
+	padding-top: 6vh;
+	text-decoration: underline;
+}
+.power-of-premium h1{
+	font-family: "Poppins";
+	text-align: center;
+	margin-top: 10vh;
+}
+.power-of-premium-features{
+	display: flex;
+	align-items: center;
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-top: 10vh;
+}
+.power-of-premium-features img{
+	width: 20vh;
+	height: auto;
+}
+.power-div{
+	padding: 2vh;
+	text-align: center;
+}
+.power-div h3{
+	font-family: "Poppins";
+}
+.power-of-premium{
+	padding-bottom: 10vh;
+}
+.black-bg{
+	background-color: black;
+	color: white;
+	height: 100%;
+}
+.black-bg h1{
+	padding-top: 10vh;
+}
+.plan-feature{
+	display: flex;
+
+}
+.pick-your-premium-h1{
+	text-align: center;
+	padding-top: 10vh;
+}
+.mini{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.pick-your-premium-text{
+	text-align: center;
+}
+.plan-feature p{
+	padding-left: 2vh;
+	
+}
+.premium-plans{
+	display: flex;
+	justify-content: space-around;
+}
+.card  {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	width: 40vh;
+	height: 80vh;
+	padding: 5vh 2vh ;
+	background: #f2f2f2;
+	overflow: hidden;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 0 0 20px 8px #d0d0d0;
+}
+.premium-plans .btn{
+	text-align: center;
+	border: 1px solid black;
+	padding: 2vh 5vh;
+	border-radius: 24px;
+	color: white;
+	background-color: black;
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+.pick-your-premium {
+	margin-left: 20vh;
+	margin-right: 20vh;
+	margin-bottom: 20vh;
+}
+.one-time-plan{
+	color: rgb(46, 119, 208);
+	border: 2px solid rgb(46, 119, 208);
+	border-radius: 5px;
+	margin-right: 8vh;
+}
+.student-discount{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: auto;
+	width: 140vh;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 0 0 20px 8px #d0d0d0;
+	padding: 2vh 5vh;
+	margin-left: 10vh;
+}
+.student-discount .btn{
+	border: 2px solid black;
+	color: black;
+	border-radius: 24px;
+	padding: 2vh;
+}
